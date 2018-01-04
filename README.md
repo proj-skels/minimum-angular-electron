@@ -1,1 +1,1 @@
-Add notes and info about the skeleton project.
+A minimal project structure and build scripting for creating Angular-based Electron applications.
