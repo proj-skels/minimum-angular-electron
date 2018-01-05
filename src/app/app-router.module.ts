@@ -15,7 +15,7 @@ const routes: Routes = [
   exports: [RouterModule],
   declarations: [],
   /**
-   * NOTE:  This is important for allowing routing to work in Electron apps.
+   * NOTE:  The APP_BASE_HREF provider is important for allowing routing to work in Electron apps.
    */
   providers: [{provide: APP_BASE_HREF, useValue : '/' }]
 })
